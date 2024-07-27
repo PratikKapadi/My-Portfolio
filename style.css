@@ -193,7 +193,7 @@ body {
 
 /* Education */
 #education {
-
+    height: 100%;
     background-color: #000000;
 }
 
@@ -267,6 +267,7 @@ body {
 
 /* contact */
 #contact {
+    height: 100%;
     background-color: #3b3b3b;
 }
 
