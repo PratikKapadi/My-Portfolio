@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-html {
+body {
     scroll-behavior: smooth;
-    background-color: #000000;
+    background-color: #000000 !important;
 }
 
 .h2 {
@@ -136,7 +136,7 @@ html {
     background-color: #000000;
     color: #ffffff;
     justify-content: center;
-    /* height: 100vh; */
+    height: 100%;
 }
 
 .img {
