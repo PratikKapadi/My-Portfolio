@@ -136,7 +136,7 @@ html {
     background-color: #000000;
     color: #ffffff;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .img {
