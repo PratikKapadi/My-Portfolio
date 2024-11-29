@@ -1,279 +1,512 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"
-        integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"
+      integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <title>Pratik Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="custom-navbar navbar navbar-expand-lg  fixed-top">
-            <div class="container-fluid ">
-                <span class="navbar-brand active">Pratik Kapadi</span>
-                <button class="navbar-toggler icon" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
-
-                    <ul class="navbar-nav m-auto">
-                        <li class="about nav-item"><a href="#" class="nav-link">Home</a></li>
-                        <li class="about nav-item"><a href="#about-1" class="nav-link">About</a></li>
-                        <li class="skills nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                        <li class="projet nav-item"><a href="#project" class="nav-link">Projects</a></li>
-                        <li class="education nav-item"><a href="#education" class="nav-link">Education</a></li>
-                        <li class="contact nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+      <nav class="custom-navbar navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <span class="navbar-brand active">Pratik Kapadi</span>
+          <button
+            class="navbar-toggler icon"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+              <li class="about nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="about nav-item">
+                <a href="#about-1" class="nav-link">About</a>
+              </li>
+              <li class="skills nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+              </li>
+              <li class="projet nav-item">
+                <a href="#project" class="nav-link">Projects</a>
+              </li>
+              <li class="education nav-item">
+                <a href="#education" class="nav-link">Education</a>
+              </li>
+              <li class="contact nav-item">
+                <a href="#contact" class="nav-link">Certificate</a>
+              </li>
+              <li class="contact nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-        <section id="about" class="container-fluid text-center">
-            <div class="container d-flex flex-sm-column flex-md-row align-items-center">
-
-                <div class="about-text w-100 text-start justify-content-center overflow-auto">
-                    <div class="mx-auto h-100 about-text-1">
-                        <h3 class="mb-3 "><span class="text-warning">Hello,</span> It's Me</h3>
-                        <h1 class="mb-4">Pratik <span class="text-warning">Kapadi</span></h1>
-                        <p class="typo-text">I`m a <span id="auto-type"></span></p>
-                        <div>
-
-                            <a href="https://drive.google.com/file/d/1PTfWeE8duPoZIcMeiO7iE-_77Ta9itaW/view?usp=sharing"
-                                class="resume-btn btn btn-outline-warning" target="_blank">
-                                Download CV
-                                <i class="fas fa-download"></i>
-                            </a>
-                            <a href="#contact" class="resume-btn btn btn-outline-warning">
-                                Contect Me
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-img w-100 w-md-100 ps-md-4 container-fluid"><img src="./images/profile-pic (7).png"
-                        alt="" class="mx-auto img-fluid"></div>
+      <section id="about" class="container-fluid text-center">
+        <div
+          class="container d-flex align-items-center"
+        >
+          <div
+            class="about-text w-100 text-start justify-content-center overflow-auto"
+          >
+            <div class="mx-auto h-100 about-text-1">
+              <h3 class="mb-3">
+                <span class="text-warning">Hello,</span> It's Me
+              </h3>
+              <h1 class="mb-4">
+                Pratik <span class="text-warning">Kapadi</span>
+              </h1>
+              <p class="typo-text">I`m a <span id="auto-type"></span></p>
+              <div>
+                <a
+                  href="https://drive.google.com/file/d/18Kf7okYGNovv20Qb3oCkSYkfoWaMZOG-/view?usp=drive_link"
+                  class="resume-btn btn btn-outline-warning"
+                  target="_blank"
+                >
+                  Download CV
+                  <i class="fas fa-download"></i>
+                </a>
+                <a href="#contact" class="resume-btn btn btn-outline-warning">
+                  Contect Me
+                </a>
+              </div>
             </div>
-        </section>
-        <section id="about-1" class="text-start container-fluid pt-5">
-            <h2 class="pb-5 pt-5 ps-5 h2">About</h2>
-            <div class=" about-1-text pb-4">
-                <p class="about-1-p">Hello, I'm Pratik Kapdi, a dedicated developer pursuing a Bachelor of
-                    Business in Computer Applications. I specialize in <span class="imp text-warning">HTML, CSS,
-                        JavaScript, Bootstrap, Nodejs, C, Mysql, React, MangoDB, and jQuery</span>, creating dynamic and
-                    responsive web applications.
+          </div>
+          <div class="about-img w-100 w-md-100 ps-md-4 container-fluid">
+            <img
+              src="./images/profile-pic (7).png"
+              alt=""
+              class="mx-auto img-fluid"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="about-1" class="text-start container-fluid pt-5">
+        <h2 class="pb-5 pt-5 ps-5 h2">About</h2>
+        <div class="about-1-text pb-4">
+          <p class="about-1-p">
+            Hello, I'm Pratik Kapdi, a dedicated developer pursuing a Bachelor
+            of Business in Computer Applications. I specialize in
+            <span class="imp text-warning"
+              >HTML, CSS, JavaScript, Bootstrap, Nodejs, C, Mysql, React,
+              MangoDB, and jQuery</span
+            >, creating dynamic and responsive web applications. I've worked on
+            projects like the
+            <span class="imp text-warning">E-Prescription System</span>,
+            <span class="imp text-warning">Travel Expenses Tracker</span>, and
+            <span class="imp text-warning">Parking Allocation System</span>,
+            showcasing my versatility and ability to develop efficient
+            solutions. I'm passionate about learning new technologies and aim to
+            create innovative solutions that make a difference.
+          </p>
+        </div>
+      </section>
+      <section id="skills" class="text-center container-fluid w-100 pt-3">
+        <h2 class="pt-5 h2">Skills</h2>
+        <div
+          class="skill-img pt-4 pb-4 row row-cols-4 justify-content-center mx-auto container-fluid"
+        >
+          <div class="text-center align-content-center img pt-3">
+            <img
+              src="./images/html-logo.svg"
+              height="50"
+              class="rounded"
+              alt="Html logo"
+            />
+            <p class="mt-2">HTML</p>
+          </div>
+          <div class="text-center align-content-center img pt-3">
+            <img
+              src="./images/css-logo.svg"
+              height="50"
+              class="rounded"
+              alt="CSS logo"
+            />
+            <p class="mt-2">CSS</p>
+          </div>
+          <div class="text-center align-content-center img pt-3">
+            <img
+              src="./images/logo-javascript.svg"
+              height="50"
+              class="rounded"
+              alt="javascript logo"
+            />
+            <p class="mt-2">JavaScript</p>
+          </div>
+          <div class="text-center align-content-center img pt-3">
+            <img
+              src="./images/nodejs-logo.svg"
+              height="50"
+              class="rounded"
+              alt="nodejs logo"
+            />
+            <p class="mt-2">Node JS</p>
+          </div>
+          <div class="text-center align-content-center img pt-3">
+            <img
+              src="./images/mysql-logo.svg"
+              height="50"
+              class="rounded"
+              alt="mqsql logo"
+            />
+            <p class="mt-2">MySql</p>
+          </div>
+          <div class="text-center align-content-center img pt-3">
+            <img
+              src="./images/bootstrap-logo.svg"
+              height="50"
+              class="rounded"
+              alt="bootstrap logo"
+            />
+            <p class="mt-2">Bootstrap</p>
+          </div>
+          <div class="text-center align-content-center img pt-3">
+            <img
+              src="./images/mongodb-logo.svg"
+              height="50"
+              class="rounded"
+              alt="MongoDB logo"
+            />
+            <p class="mt-2">MongoDB</p>
+          </div>
+          <div class="text-center align-content-center img pt-3">
+            <img
+              src="./images/react-logo.svg"
+              height="50"
+              class="rounded"
+              alt="React logo"
+            />
+            <p class="mt-2">React JS</p>
+          </div>
+          <div class="text-center align-content-center img pt-3">
+            <img
+              src="./images/expressjs-logo.svg"
+              height="50"
+              class="rounded"
+              alt="Express js logo"
+            />
+            <p class="mt-2">Express JS</p>
+          </div>
+          <div class="text-center align-content-center img pt-3">
+            <img
+              src="./images/jquery-logo.svg"
+              height="50"
+              class="rounded"
+              alt="jQuery logo"
+            />
+            <p class="mt-2">JQuery</p>
+          </div>
+        
+        </div>
+        <h2 class="h2">Tools</h2>
+        <div class="row row-cols-5 justify-content-center pt-4">
+          <div class="text-center align-content-center img pt-3">
+            <img
+              src="./images/git-logo.svg"
+              height="50"
+              class="rounded"
+              alt="git logo"
+            />
+            <p class="mt-2">Git</p>
+          </div>
+          <div class="text-center align-content-center img pt-3">
+            <img
+              src="./images/github-logo.svg"
+              height="50"
+              class="rounded"
+              alt="github logo"
+            />
+            <p class="mt-2">GitHub</p>
+          </div>
+          <div class="text-center align-content-center img pt-3">
+            <img
+              src="./images/vscode-logo.svg"
+              height="50"
+              class="rounded"
+              alt="vscode logo"
+            />
+            <p class="mt-2">VS code</p>
+          </div>
+        </div>
+      </section>
+      <section id="project" class="text-center container-fluid pt-5">
+        <h2 class="pt-3 pb-5 h2">Projects</h2>
 
-                    I've worked on projects like the <span class="imp text-warning">E-Prescription System</span>, <span
-                        class="imp text-warning">Travel Expenses Tracker</span>, and <span
-                        class="imp text-warning">Parking Allocation System</span>, showcasing my versatility and ability
-                    to develop efficient solutions. I'm passionate about learning new technologies and aim to create
-                    innovative solutions that make a difference.</p>
-
+        <div class="row m-1 m-md-0">
+          <div class="col-md-4">
+            <div class="card card-hover">
+              <img
+                src="./images/project-5.png"
+                class="card-img-top"
+                alt="TextUtils"
+              />
+              <div class="card-info">
+                <div class="text-center">
+                  <h5 class="card-title">BikeBook</h5>
+                  <p class="card-text">
+                    Created a dynamic bike booking app with React and Bootstrap,
+                    featuring bike details, on-road price comparisons, and a
+                    responsive, user-friendly interface.
+                  </p>
+                  <a
+                    href="https://bikebook.vercel.app/"
+                    class="btn btn-outline-warning"
+                    target="_blank"
+                    >Link</a
+                  >
+                </div>
+              </div>
             </div>
-        </section>
-        <section id="skills" class="text-center  container-fluid w-100 pt-3">
-            <h2 class="pt-5 h2">Skills</h2>
-            <div class="skill-img pt-4 pb-4 row row-cols-4 justify-content-center  mx-auto container-fluid">
-                <div class="text-center align-content-center img pt-3">
-                    <img src="./images/html-logo.svg" height="50" class="rounded " alt="Html logo">
-                    <p class="mt-2">HTML</p>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-hover">
+              <img
+                src="./images/project-4.png"
+                class="card-img-top"
+                alt="TextUtils"
+              />
+              <div class="card-info">
+                <div class="text-center">
+                  <h5 class="card-title">TextUtils</h5>
+                  <p class="card-text">
+                    Developed a React and Bootstrap-based Textutils app enabling
+                    text conversion to Uppercase, Lowercase, and Title Case,
+                    with added features like text copying and responsive design
+                    for improved usability.
+                  </p>
+                  <a
+                    href="https://text-utils-five-silk.vercel.app/"
+                    class="btn btn-outline-warning"
+                    target="_blank"
+                    >Link</a
+                  >
                 </div>
-                <div class="text-center align-content-center img pt-3">
-                    <img src="./images/css-logo.svg" height="50" class="rounded" alt="CSS logo">
-                    <p class="mt-2">CSS</p>
-                </div>
-                <div class="text-center align-content-center img pt-3">
-                    <img src="./images/logo-javascript.svg" height="50" class="rounded" alt="javascript logo">
-                    <p class="mt-2">JavaScript</p>
-                </div>
-                <div class="text-center align-content-center img pt-3">
-                    <img src="./images/nodejs-logo.svg" height="50" class="rounded" alt="nodejs logo">
-                    <p class="mt-2">Node js</p>
-                </div>
-                <div class="text-center align-content-center img pt-3">
-                    <img src="./images/mysql-logo.svg" height="50" class="rounded" alt="mqsql logo">
-                    <p class="mt-2">MySql</p>
-                </div>
-                <div class="text-center align-content-center img pt-3">
-                    <img src="./images/bootstrap-logo.svg" height="50" class="rounded" alt="bootstrap logo">
-                    <p class="mt-2">Bootstrap</p>
-                </div>
-                <div class="text-center align-content-center img pt-3">
-                    <img src="./images/mongodb-logo.svg" height="50" class="rounded" alt="MongoDB logo">
-                    <p class="mt-2">MongoDB</p>
-                </div>
-                <div class="text-center align-content-center img pt-3">
-                    <img src="./images/react-logo.svg" height="50" class="rounded" alt="React logo">
-                    <p class="mt-2">React JS</p>
-                </div>
-                <div class="text-center align-content-center img pt-3">
-                    <img src="./images/jquery-logo.svg" height="50" class="rounded" alt="jQuery logo">
-                    <p class="mt-2">jQuery</p>
-                </div>
-                <div class="text-center align-content-center img pt-3">
-                    <img src="./images/c-logo.svg" height="50" class="rounded" alt="C logo">
-                    <p class="mt-2">C</p>
-                </div>
+              </div>
             </div>
-            <h2 class="h2">Tools</h2>
-            <div class="row row-cols-5 justify-content-center pt-4">
-                <div class="text-center align-content-center img pt-3">
-                    <img src="./images/git-logo.svg" height="50" class="rounded" alt="git logo">
-                    <p class="mt-2">Git</p>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-hover">
+              <img
+                src="./images/project-2.png"
+                class="card-img-top"
+                alt="Parking Allocation Project"
+              />
+              <div class="card-info">
+                <div class="text-center">
+                  <h5 class="card-title">E-Prescription</h5>
+                  <p class="card-text">
+                    Developed a comprehensive e-prescription system integrating
+                    secure login, medication search, and electronic prescription
+                    generation using HTML, CSS, JavaScript, Node.js, and MySQL.
+                  </p>
+                  <a
+                    href="https://github.com/PratikKapadi/E-Prescription"
+                    class="btn btn-outline-warning"
+                    target="_blank"
+                    >GitHub</a
+                  >
                 </div>
-                <div class="text-center align-content-center img pt-3">
-                    <img src="./images/github-logo.svg" height="50" class="rounded" alt="github logo">
-                    <p class="mt-2">GitHub</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-hover">
+              <img
+                src="./images/project-3.png"
+                class="card-img-top"
+                alt="Parking Allocation Project"
+              />
+              <div class="card-info">
+                <div class="text-center">
+                  <h5 class="card-title">Travel Expenses Tracker</h5>
+                  <p class="card-text">
+                    Implemented a Travel Expenses Tracker with HTML, CSS,
+                    JavaScript, Node.js, and MySQL Workbench, enabling users to
+                    track and manage travel expenses in real time.
+                  </p>
+                  <a
+                    href="https://github.com/PratikKapadi/Travel-Expenses-Tracker"
+                    class="btn btn-outline-warning"
+                    target="_blank"
+                    >GitHub</a
+                  >
                 </div>
-                <div class="text-center align-content-center img pt-3">
-                    <img src="./images/vscode-logo.svg" height="50" class="rounded" alt="vscode logo">
-                    <p class="mt-2">VS code</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-hover">
+              <img
+                src="./images/project-1.png"
+                class="card-img-top"
+                alt="Parking Allocation Project"
+              />
+              <div class="card-info">
+                <div class="text-center">
+                  <h5 class="card-title">Parking Allocation</h5>
+                  <p class="card-text">
+                    Engineered a resilient parking allocation system using
+                    XAMPP, Visual Studio, HTML, CSS, JavaScript, PHP, and MySQL,
+                    enabling users to check mall parking status and efficiently
+                    manage parking allocation..
+                  </p>
+                  <a
+                    href="https://github.com/PratikKapadi/Parking-Allocation"
+                    class="btn btn-outline-warning"
+                    target="_blank"
+                    >GitHub</a
+                  >
                 </div>
+              </div>
             </div>
-
-        </section>
-        <section id="project" class="text-center container-fluid pt-5">
-            <h2 class="pt-3 pb-5 h2">Projects</h2>
-
-            <div class="row m-1 m-md-0">
-                <div class="col-md-4">
-                    <div class="card card-hover">
-                        <img src="./images/project-2.png" class="card-img-top" alt="Parking Allocation Project">
-                        <div class="card-info">
-                            <div class="text-center">
-                                <h5 class="card-title">E-Prescription</h5>
-                                <p class="card-text">Developed a comprehensive e-prescription system integrating
-                                    secure login, medication search, and electronic prescription generation using HTML,
-                                    CSS, JavaScript, Node.js, and MySQL.</p>
-                                <a href="https://github.com/PratikKapadi/E-Prescription" class="btn btn-outline-warning"
-                                    target="_blank">GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card card-hover">
-                        <img src="./images/project-3.png" class="card-img-top" alt="Parking Allocation Project">
-                        <div class="card-info">
-                            <div class="text-center">
-                                <h5 class="card-title">Travel Expenses Tracker</h5>
-                                <p class="card-text">Implemented a Travel Expenses Tracker with HTML, CSS, JavaScript,
-                                    Node.js, and MySQL Workbench, enabling users to track and manage travel expenses in
-                                    real time.</p>
-                                <a href="https://github.com/PratikKapadi/Travel-Expenses-Tracker"
-                                    class="btn btn-outline-warning" target="_blank">GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card card-hover">
-                        <img src="./images/project-1.png" class="card-img-top" alt="Parking Allocation Project">
-                        <div class="card-info">
-                            <div class="text-center">
-                                <h5 class="card-title">Parking Allocation</h5>
-                                <p class="card-text">Engineered a resilient parking allocation system using XAMPP,
-                                    Visual Studio, HTML, CSS, JavaScript, PHP, and MySQL, enabling users to check mall
-                                    parking status and efficiently manage parking allocation..</p>
-                                <a href="https://github.com/PratikKapadi/Parking-Allocation"
-                                    class="btn btn-outline-warning" target="_blank">GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
+          </div>
+        </div>
+      </section>
+      <section id="education" class="container-fluid pb-5 pt-3">
+        <h2 class="text-center pt-5 h2">Education</h2>
+        <div class="container-edu">
+          <section class="col-edu">
+            <div class="contents">
+              <div class="box-edu">
+                <h4>2021-2024</h4>
+                <h3>BBA in Computer Application</h3>
+                <p>
+                  Successfully completed a Bachelor of Business Administration
+                  (BBA) in Computer Application from Savitribai Phule Pune
+                  University, in affiliation with Modern College of Arts,
+                  Science & Commerce, Ganeshkhind. This program provided a
+                  comprehensive education in both business administration and
+                  computer applications, equipping me with a unique blend of
+                  technical skills and business acumen. The curriculum covered a
+                  wide range of subjects, including software development,
+                  database management, web technologies, and business management
+                  principles, preparing me for a dynamic career at the
+                  intersection of technology and business.
+                </p>
+              </div>
+              <div class="box-edu">
+                <h4>2019-2021</h4>
+                <h3>Higher Secondary Certificate</h3>
+                <p>
+                  Successfully completed the Higher Secondary Certificate (HSC)
+                  examination in Commerce in 2019, accredited by the Maharashtra
+                  State Board. This advanced education equipped me with in-depth
+                  knowledge and skills in various commerce-related subjects,
+                  including accounting, economics, and business studies, laying
+                  a robust foundation for my future academic and professional
+                  endeavors.
+                </p>
+              </div>
+              <div class="box-edu">
+                <h4>2019</h4>
+                <h3>Secondary School Certificate</h3>
+                <p>
+                  Successfully completed the Secondary School Certificate (SSC)
+                  examination in 2019, accredited by the Maharashtra State
+                  Board. This foundational education provided a strong basis in
+                  various subjects, fostering a comprehensive understanding of
+                  essential academic principles and paving the way for further
+                  educational achievements.
+                </p>
+              </div>
             </div>
-        </section>
-        <section id="education" class="container-fluid pb-5 pt-3">
-            <h2 class="text-center pt-5 h2">Education</h2>
-            <div class="container-edu">
-
-                <section class="col-edu">
-                    <div class="contents">
-                        <div class="box-edu">
-                            <h4>2021-2024</h4>
-                            <h3>BBA in Computer Application</h3>
-                            <p>Successfully completed a Bachelor of Business Administration (BBA) in Computer
-                                Application from Savitribai Phule Pune University, in affiliation with Modern College of
-                                Arts, Science & Commerce, Ganeshkhind. This program provided a comprehensive education
-                                in both business administration and computer applications, equipping me with a unique
-                                blend of technical skills and business acumen. The curriculum covered a wide range of
-                                subjects, including software development, database management, web technologies, and
-                                business management principles, preparing me for a dynamic career at the intersection of
-                                technology and business.</p>
-                        </div>
-                        <div class="box-edu">
-                            <h4>2019-2021</h4>
-                            <h3>Higher Secondary Certificate</h3>
-                            <p>Successfully completed the Higher Secondary Certificate (HSC) examination in Commerce in
-                                2019, accredited by the Maharashtra State Board. This advanced education equipped me
-                                with in-depth knowledge and skills in various commerce-related subjects, including
-                                accounting, economics, and business studies, laying a robust foundation for my future
-                                academic and professional endeavors.</p>
-                        </div>
-                        <div class="box-edu">
-                            <h4>2019</h4>
-                            <h3>Secondary School Certificate</h3>
-                            <p>Successfully completed the Secondary School Certificate (SSC) examination in 2019,
-                                accredited by the Maharashtra State Board. This foundational education provided a strong
-                                basis in various subjects, fostering a comprehensive understanding of essential academic
-                                principles and paving the way for further educational achievements.</p>
-                        </div>
-                    </div>
-                </section>
-
-            </div>
-        </section>
-        <section id="contact" class="text-center align-items-center container-fluid p-0">
-            <div class="header">
-                <div class="line"></div>
-                <h2 class="h2">Contact Me</h2>
-                <div class="line"></div>
-            </div>
-            <div class="contact-info d-flex mx-auto pt-4">
-
-                <div class="contact-details"><a href="mailto:pratikkapdi13@gmail.com" class="text-warning"> <i
-                            class="fa-regular fa-envelope text-light"></i>pratikkapdi13@gamil.com</a></div>
-                <div class="contact-details"><a href="tel:7219154633" class="text-warning"> <i
-                            class="fa-solid fa-phone text-light"></i>+91
-                        7219154633</a></div>
-                <div class="contact-details"><a href="#contact" class="text-warning"> <i
-                            class="fa-solid fa-location-dot text-light"></i>Thergaon
-                        Pune-33</a></div>
-            </div>
-            <div class="icons pt-5 p-0 container-fluid">
-                <div class="line"></div>
-                <a href="https://www.linkedin.com/in/pratik-kapadi/" target="_blank" class="btn-icon"><i
-                        class="fa-brands fa-linkedin-in text-warning"></i></a>
-                <a href="" class="btn-icon" target="_blank"><i class="fa-brands fa-instagram text-warning"></i></a>
-                <a href="https://wa.me/7219154633" class="btn-icon" target="_blank"><i
-                        class="fa-brands fa-whatsapp text-warning"></i></a>
-                <a href="https://github.com/PratikKapadi" class="btn-icon" target="_blank"><i
-                        class="fa-brands fa-github text-warning"></i></a>
-                <div class="line"></div>
-            </div>
-        </section>
+          </section>
+        </div>
+      </section>
+      <!-- <section id="certificate" class="container-fluid pb-5 pt-3">
+        <h2 class="text-center pt-5 h2">Certificate</h2>
+      </section> -->
+      <section
+        id="contact"
+        class="text-center align-items-center container-fluid p-0"
+      >
+        <div class="header">
+          <div class="line"></div>
+          <h2 class="h2">Contact Me</h2>
+          <div class="line"></div>
+        </div>
+        <div class="contact-info d-flex mx-auto pt-4">
+          <div class="contact-details">
+            <a href="mailto:pratikkapdi13@gmail.com" class="text-warning">
+              <i class="fa-regular fa-envelope text-light"></i
+              >pratikkapdi13@gamil.com</a
+            >
+          </div>
+          <div class="contact-details">
+            <a href="tel:7219154633" class="text-warning">
+              <i class="fa-solid fa-phone text-light"></i>+91 7219154633</a
+            >
+          </div>
+          <div class="contact-details">
+            <a href="#contact" class="text-warning">
+              <i class="fa-solid fa-location-dot text-light"></i>Thergaon
+              Pune-33</a
+            >
+          </div>
+        </div>
+        <div class="icons pt-5 p-0 container-fluid">
+          <div class="line"></div>
+          <a
+            href="https://www.linkedin.com/in/pratik-kapadi/"
+            target="_blank"
+            class="btn-icon"
+            ><i class="fa-brands fa-linkedin-in text-warning"></i
+          ></a>
+          <a href="" class="btn-icon" target="_blank"
+            ><i class="fa-brands fa-instagram text-warning"></i
+          ></a>
+          <a href="https://wa.me/7219154633" class="btn-icon" target="_blank"
+            ><i class="fa-brands fa-whatsapp text-warning"></i
+          ></a>
+          <a
+            href="https://github.com/PratikKapadi"
+            class="btn-icon"
+            target="_blank"
+            ><i class="fa-brands fa-github text-warning"></i
+          ></a>
+          <div class="line"></div>
+        </div>
+      </section>
     </main>
 
-    <footer id="footer" class="text-center align-items-center container-fluid pt-4 pb-4">
-        <p>"Thanks for Scrolling"</p>
+    <footer
+      id="footer"
+      class="text-center align-items-center container-fluid pt-4 pb-4"
+    >
+      <p>"Thanks for Scrolling"</p>
     </footer>
     <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
