@@ -1,7 +1,7 @@
 let typed = new Typed("#auto-type", {
   strings: [
     "App Devloper",
-    "React Native Devloper",
+    "React Native Developer",
     "MERN Stack Developer",
     "Frontend Developer",
   ],
