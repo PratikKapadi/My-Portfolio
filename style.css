@@ -33,9 +33,9 @@ body {
   color: #ffd900 !important;
 }
 
-.custom-navbar .nav-link:hover {
+/* .custom-navbar .nav-link:hover {
   color: #a7a5a5;
-}
+} */
 
 .custom-navbar span:hover {
   color: #a7a5a5;
@@ -100,27 +100,27 @@ body {
   text-align: justify;
 }
 
-/* About-1 */
-#about-1 {
+/* info */
+#info {
   background: #000000;
   height: 100%;
 }
 
-#about-1 h2 {
+#info h2 {
   color: #fff;
 }
 
-.about-1-text {
+.info-text {
   display: flex;
 }
 
-.about-1-text p {
+.info-text p {
   color: #fff;
   text-align: start;
   margin-right: 20px;
 }
 
-.about-1-text::before {
+.info-text::before {
   content: " ";
   position: relative;
   top: 10px;
@@ -201,7 +201,6 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  animation: slideIn 0.8s ease;
 }
 
 .exp-title {
@@ -227,7 +226,6 @@ body {
   width: 100%;
   padding: 15px;
   transition: all 0.4s ease;
-  animation: fadeUp 1s ease;
 }
 
 .experience-card-main:hover {
@@ -272,29 +270,6 @@ body {
   color: #fff;
 }
 
-/* Animations */
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes slideIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 /* Education */
 #education {
   height: 100%;
@@ -304,7 +279,6 @@ body {
 #education h2 {
   color: #fff;
 }
-
 
 .container-edu {
   padding: 35px 10%;
@@ -432,8 +406,6 @@ body {
   flex-grow: 1;
   height: 1px;
   background-color: #ffc107;
-  /* width: 100px; */
-  /* Warning color */
 }
 
 .icons .btn-icon i {
@@ -453,8 +425,6 @@ footer {
 footer p {
   font-size: 30px;
 }
-
-
 
 /* Scroll To Top Button */
 #scrollTopBtn {
